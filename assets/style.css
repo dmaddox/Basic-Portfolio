@@ -1,0 +1,102 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+	padding: 0 200px;
+	overflow: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	color:  #ffffff;
+	padding: 20px;;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	width: 100%;
+	border-bottom: solid 2px #cccccc;
+	padding-bottom: 25px;
+}
+
+a {
+	color: #cccccc;
+}
+
+ul {
+	float: right;
+}
+
+li {
+	float: left;
+	border-right: solid 2px #cccccc;
+	padding: 0 30px;
+	margin: 25px 0;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.container {
+	padding: 35px 200px;
+	background-color: lightgrey;
+	overflow: auto;
+}
+
+.about, .connect {
+	padding: 25px;
+}
+
+.about {
+	width: 60%;
+	float: left;
+	background-color: white;
+}
+
+#my_image {
+	margin: 25px 25px 25px 0;
+	float:left;
+}
+
+p {
+	margin: 25px 25px 25px 0;
+}
+
+.connect {
+	float: right;
+	background-color: white;
+	text-align: center;
+	width: 175px;
+}
+
+.connect h2 {
+	font-size: 20px;
+}
+
+.social {
+	text-align: center;
+	margin-top: 25px;
+	width: 50px;
+	height: 50px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
